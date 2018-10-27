@@ -1,0 +1,11 @@
+{
+  "name": "@jameswebdev/componentlibrary",
+  "version": "0.0.1-beta",
+  "description": "Experimenting with what is the best way to layout a component library folder structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JamesWebDev",
+  "license": "MIT"
+}
