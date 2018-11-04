@@ -10,6 +10,7 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1500,
     "files.exclude": {
+        "**/node_modules": false,
         "**/.git": true,
         "**/*.js.map": true,
         "**/*.js": {"when": "$(basename).ts"},
