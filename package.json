@@ -6,7 +6,7 @@
   },
   "private": false,
   "access": "public",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Experimenting with what is the best way to layout a component library folder structure",
   "main": "index.js",
   "scripts": {
