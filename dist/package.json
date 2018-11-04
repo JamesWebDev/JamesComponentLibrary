@@ -1,5 +1,10 @@
 {
   "name": "@jameswebdev/componentlibrary",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/JamesWebDev/JamesComponentLibrary"
+  },
+  "private": false,
   "version": "0.0.1-beta",
   "description": "Experimenting with what is the best way to layout a component library folder structure",
   "main": "index.js",
@@ -7,7 +12,6 @@
     "node": "node",
     "postinstall": "npm ls --json --depth=0 > npm-install-results.json",
     "test": "echo \"No tests specified\"",
-    "copy": "cp package.json dist/ && cp README.md dist/ && cp .npmrc dist/",
     "preversion": "npm test",
     "version": "run-s build \"git add -A\"",
     "postversion": "\"git push\" \"git push --tags\" \"npm publish\"",
